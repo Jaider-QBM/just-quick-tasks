@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/just-quick-tasks/static/css/main.09cecfb6.css",
+    "main.js": "/just-quick-tasks/static/js/main.8f1768ce.js",
+    "index.html": "/just-quick-tasks/index.html",
+    "main.09cecfb6.css.map": "/just-quick-tasks/static/css/main.09cecfb6.css.map",
+    "main.8f1768ce.js.map": "/just-quick-tasks/static/js/main.8f1768ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09cecfb6.css",
+    "static/js/main.8f1768ce.js"
+  ]
+}
