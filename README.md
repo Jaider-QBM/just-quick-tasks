@@ -9,6 +9,10 @@ Just Quick Tasks es una aplicación sencilla y efectiva para gestionar tus tarea
 - **Interfaz Intuitiva**: Navegación sencilla y fácil de usar.
 - **Clonación y Despliegue**: Clona el proyecto fácilmente y ejecútalo en tu entorno local.
 
+## URL de Despliegue
+
+Puedes acceder a la aplicación desplegada en: [\[URL_DEL_DEPLOY\]](https://jaider-qbm.github.io/just-quick-tasks/)
+
 ## Instalación
 
 Para clonar el proyecto y ejecutarlo en tu máquina local, sigue estos pasos:
