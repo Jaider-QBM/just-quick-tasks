@@ -1,75 +1,44 @@
-# Repositorio base del Curso de Introducción a React.js en Platzi
+# Just Quick Tasks (JQT)
 
-¡Hola, Platzinauta!
+Just Quick Tasks es una aplicación sencilla y efectiva para gestionar tus tareas diarias y semanales. Te permite crear, modificar y eliminar tareas, ayudándote a organizar tu tiempo de manera eficiente. Todos los datos se almacenan en el localStorage de tu navegador, lo que significa que no necesitas una base de datos externa.
 
-En este repositorio encontrarás el código de todas las clases del [Curso de Introducción a React.js](https://platzi.com/reactjs). Para empezar solo debes clonar este repositorio (`git clone`), instalar sus dependencias (`npm i`) y ejecutar la aplicación (`npm start`).
+## Características
 
-La rama principal contiene el código con el que eempezamos el curso. En las demás ramas encontrarás el código de las siguientes clases y finalmente el deploy de la aplicación.
+- **Gestión de Tareas**: Crea tareas diarias o semanales.
+- **Almacenamiento Local**: Todos los datos se guardan en el localStorage, accesibles incluso después de cerrar el navegador.
+- **Interfaz Intuitiva**: Navegación sencilla y fácil de usar.
+- **Clonación y Despliegue**: Clona el proyecto fácilmente y ejecútalo en tu entorno local.
 
-¡Mucha suerte aprendiendo React! #NuncaParesDeAprender
+## Instalación
 
-## Getting Started with Create React App
+Para clonar el proyecto y ejecutarlo en tu máquina local, sigue estos pasos:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Clona el repositorio:
+   ```bash
+   git clone <https://github.com/Jaider-QBM/just-quick-tasks.git>
 
-## Available Scripts
+2. Navega al directorio del proyecto:
+    ```bash
+    cd Just-Quick-Tasks
+3. Instala las dependencias:
+    ```bash
+    npm install
+4. Ejecuta la aplicación localmente:
+    ```bash
+    npm start
 
-In the project directory, you can run:
+## Tecnologías Utilizadas
 
-### `npm start`
+- React.js
+- JavaScript
+- HTML
+- CSS
+- LocalStorage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Contribución
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+¡Las contribuciones son bienvenidas! Si deseas mejorar el proyecto, por favor, envía un pull request o abre un issue para discutir cambios.
 
-### `npm run build`
+## Contribución
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Jaider Quimbaya - Desarrollador Software principal
