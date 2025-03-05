@@ -11,7 +11,7 @@ Just Quick Tasks es una aplicación sencilla y efectiva para gestionar tus tarea
 
 ## URL de Despliegue
 
-Puedes acceder a la aplicación desplegada en: [\[URL_DEL_DEPLOY\]](https://jaider-qbm.github.io/just-quick-tasks/)
+Puedes acceder a la aplicación desplegada en: [\[Just_Quick_Tasks\]](https://jaider-qbm.github.io/just-quick-tasks/)
 
 ## Instalación
 
