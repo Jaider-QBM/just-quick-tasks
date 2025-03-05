@@ -1,0 +1,83 @@
+.card {
+    width: 330px;
+    height: 80px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    background-color: #ffffff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.wave {
+    position: absolute;
+    transform: rotate(90deg);
+    left: -31px;
+    top: 32px;
+    width: 80px;
+    fill: #555;
+}
+
+.wave--active{
+    fill: #04e4003a;
+}
+
+.icon-container {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 8px;
+    background: #a09f9f5b;
+}
+
+.icon-container--active{
+    background-color: #04e40048;
+}
+
+.icon-item-check {
+    cursor: pointer;
+    width: 17px;
+    height: 17px;
+    color: #555;
+}
+
+.icon-item-check:hover{
+    color: #269b24;
+}
+
+.icon-item-check--active{
+    color: #269b24;
+}
+
+.message-text {
+    color: #555;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0;
+    cursor: default;
+}
+
+.message-text--active{
+    text-decoration: line-through;
+    color: #269b24;
+}
+
+.cross-icon {
+    width: 18px;
+    height: 18px;
+    color: #555;
+    cursor: pointer;
+}
+
+.cross-icon:hover {
+    color: red;
+}

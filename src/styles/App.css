@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    min-height: 100vh;
+    padding-inline: 2rem;
+    background: radial-gradient(circle at center 10%, 
+        rgba(0, 0, 0, 1) 60%,  
+        rgba(0, 40, 0, 0.9) 80%, 
+        rgba(0, 80, 0, 1) 90% 
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Roboto", serif;
+}

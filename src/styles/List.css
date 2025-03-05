@@ -1,0 +1,7 @@
+.list-ul{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 40px ;
+    justify-content: center;
+}
