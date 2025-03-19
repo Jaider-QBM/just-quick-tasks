@@ -13,7 +13,7 @@ import { FormStasks } from './FormStasks'
 
 
 export function AppUI() {
-    const { serchItem, completeItem, deleteItem, loading, error, openModal} = React.useContext(ItemContext)
+    const { serchItem, completeItem, deleteItem, loading, openModal} = React.useContext(ItemContext)
     return (
         <div className='body-content'>
             <div className='content-create'>
@@ -39,7 +39,12 @@ export function AppUI() {
 
                     {
                         serchItem.map(({ text, completed }) => (
-                            <Item key={text} title={text} completed={completed} onClomplete={() => (completeItem(text))} onDelete={deleteItem} />
+                            <Item 
+                                key={text} 
+                                title={text} 
+                                completed={completed} 
+                                onClomplete={() => (completeItem(text))} 
+                                onDelete={() => deleteItem(text)} />
                         ))
                     }
                 </List>

@@ -26,7 +26,7 @@ function ItemProvider({ children }) {
             alert('Este ítem ya existe.');
             return;
         }
-        
+
         const newTodos = [...todos];
         newTodos.push({
             text,
